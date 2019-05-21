@@ -12,9 +12,10 @@ export default function Empty ({ user }){
       <p className="Empty__status">
          <b>Status:</b> {status}
       </p>
-      <button className="Empty__btn">Start a conversation</button>
+      {/*<button className="Empty__btn">Start a conversation</button>*/}
       <p className="Empty__info">
-        Search for someone to start chatting with or go to Contacts to see who is available
+      Click on contact to start conversation
+        {/*Search for someone to start chatting with or go to Contacts to see who is available*/}
       </p>
       </div>
     )
